@@ -77,7 +77,6 @@ button:hover {
     background-color: #1d4ed8;
 }
 
-/* QR CODE — position */
 .qr {
     width: 120px;
     position: fixed;
@@ -89,7 +88,6 @@ button:hover {
     box-shadow: 0 6px 15px rgba(0,0,0,0.3);
 }
 
-/* Bouton haut */
 .top-btn {
     position: fixed;
     bottom: 20px;
