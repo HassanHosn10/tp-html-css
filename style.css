@@ -1,0 +1,109 @@
+header {
+    text-align: center;
+    padding: 40px;
+    background-color: #e2e8f0;
+}
+
+.photo {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px auto;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #0f172a;
+    padding: 10px;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #38bdf8;
+}
+
+main {
+    padding: 30px;
+    display: grid;
+    grid-gap: 40px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #1e293b;
+    color: white;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+/* QR CODE — position */
+.qr {
+    width: 120px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: white;
+    padding: 6px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+/* Bouton haut */
+.top-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+footer {
+    background-color: #020617;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.copyright {
+    color: #38bdf8;
+    font-weight: bold;
+}
